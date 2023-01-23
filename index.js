@@ -2,17 +2,17 @@ console.clear();
 console.log("testing the shit out");
 window.alert("I don't love pizaa.");
 
-let firstName= "Aaryan";
+let name1 = "Aaryan";
 let age =23;
 let student = true;
 
-console.log("Hello",firstName);
+console.log("Hello",name1);
 console.log("Your age is", age);
 console.log("Enrolled as a student:",student);
 
 // displaying Variable within DOM
 
-document.getElementById("p1").innerHTML = "Hello " + firstName;
+document.getElementById("p1").innerHTML = "Hello " + name1;
 document.getElementById("p2").innerHTML = "Your age is : " + age + " years Old";
 document.getElementById("p3").innerHTML = "Enrolled as a Student : " + student;
 
@@ -82,3 +82,24 @@ document.getElementById("btn").onclick=function(){
     c= Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
     document.getElementById("c").innerHTML= "Side C:"+c;
 }
+
+
+// useful string methods & properties
+let nameUser = "Aaryan Bro";
+console.log(nameUser.length);
+let firstLetter = nameUser.charAt(1);
+console.log(firstLetter)
+//other properties of strings :: indexOf, lastIndexOf, trim, toUpperCase, toLowerCase, replaceAll("","") 
+
+//slice() method, extracts a section of strings and retruns it as a new string without modifying newer ones
+
+let fullName ="Aaryan Shrivastava";
+let firstName;
+let lastName;
+
+// firstName = fullName.slice(0,6)
+// lastName = fullName.slice(7);
+firstName = fullName.slice(0,fullName.indexOf(" "));
+lastName = fullName.slice(fullName.indexOf(" ")+1);
+console.log(firstName);
+console.log(lastName);
