@@ -293,3 +293,50 @@ for(let i=1; i<=rows; i+=1){
     document.getElementById("mRT").innerHTML += "<br>";
 }
 
+// function :: Define the code once, and use it many times.
+//             To perform some code and call the function.
+
+let name1 = "Aaryan";
+let age =23;
+function details(){
+    console.log("Hello",name1,age);
+}
+details();
+
+//return = returns a value back to the place
+        //where you invoked a function.
+
+        let area;
+        let width;
+        let height;
+        width = window.prompt("Enter Width");
+        height = window.prompt("Enter Height");
+        area = getArea(width,height);
+        
+        function getArea(width,height){
+                    let rArea = width*height;
+                    return rArea;
+        }
+        console.log("Area is",area);
+
+        // ternary expression :: shortcut for an If else statement;
+// Take 3 operands
+// 1 a condition with ?
+// 2 expression if true  
+// 3 expression if False
+
+// condition ? exp-if-True : exp-if-False
+
+let adult =checkAge(21);
+console.log(adult);
+
+function checkAge(age){
+    return age >= 18 ? true : false;
+}
+
+checkWinner(true);
+
+function checkWinner(win){
+    win ? console.log("You Win") : console.log("You Lose");
+}
+
