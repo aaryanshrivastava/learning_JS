@@ -16,8 +16,6 @@
 // document.getElementById("p2").innerHTML = "Your age is : " + age + " years Old";
 // document.getElementById("p3").innerHTML = "Enrolled as a Student : " + student;
 
-
-
 // // Accepting USER INPUT in javascript
 
 // let userName1 = window.prompt("What's your name ??");
@@ -129,10 +127,6 @@
 // if(online){
 //     console.log("You are online!")
 // }
-// else{
-//     console.log("You are offline!")
-// }
-
 
 // //checked property :: lets us know if the check box or a radio button is selected,
 // //accesing a cehcked property will give us a boolean vlaue true or flase;
@@ -232,10 +226,6 @@
 // if(!sunny){
 //     console.log("It's cloudy outside!");
 // }
-// else{
-//     console.log("It's Sunny Outside!")
-// }
-
 
 // //Loops
 // // while loop = repeat some code, if a codition is true (potentially infinite).
@@ -454,7 +444,6 @@
 // let class2 = ['x','y','z'];
 // class1.push(...class2);
 // console.log(class1);
-
 
 // //rest parameters :: represents an indefinite number of parameters (packs the arguments in array)
 
