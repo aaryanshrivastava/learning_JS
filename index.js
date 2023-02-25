@@ -1124,7 +1124,6 @@
 // Great for any general utility vlaues and functions
 // Helps to make your code reusable and maintainable.
 // Think of modules as seperate chapters of book.
-//import { Pi, getCicumference, getArea } from "./math_util.js";
 
 // import { Pi, getCicumference, getArea } from "./math_util.js";
 
@@ -1135,5 +1134,3 @@
 
 // let circumference = getCicumference(10);
 // console.log(circumference);
-
-//
