@@ -1120,7 +1120,7 @@
 // wait(3000).then(() => console.log("Thanks for waiting!"));
 
 // The idea behind a module is that it's a file of reusable code.
-// We can import sections of pre - wrottern code to use wheneever it is needed.
+// We can import sections of pre - wrottern code to use whenever it is needed.
 // Great for any general utility vlaues and functions
 // Helps to make your code reusable and maintainable.
 // Think of modules as seperate chapters of book.
@@ -1134,3 +1134,15 @@
 
 // let circumference = getCicumference(10);
 // console.log(circumference);
+
+// DOM Document Object Model (Technically It's an API).
+// An interface for changing the content of the page.
+// It's arranged in a hierachial tree...0.
+// DOM is an representation of HTML page. This tree contains Nodes.
+// The first child of document if the HTML child element.
+// Interacting with the DOM we can elements of a webpage.
+// Document is the entry point of our DOM.
+console.log("hi");
+// console.log(document); // would display DOM and everything within it.
+// console.dir(document); // displays all the Properties.
+// console.log(document.URL); //displays
