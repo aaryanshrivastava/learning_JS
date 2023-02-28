@@ -1136,8 +1136,9 @@
 // console.log(circumference);
 
 // DOM Document Object Model (Technically It's an API).
-// An interface for changing the content of the page.
-// It's arranged in a hierachial tree...0.
+// An interface for changing the content of the page.Changes the content without having to reload the page.
+//Document is the access point.
+// It's arranged in a hierachial tree as model.
 // DOM is an representation of HTML page. This tree contains Nodes.
 // The first child of document if the HTML child element.
 // Interacting with the DOM we can elements of a webpage.
@@ -1145,4 +1146,8 @@
 
 console.log(document); // would display DOM and everything within it.
 console.dir(document); // displays all the Properties.
-console.log(document.URL); //displays
+console.log(document.title); //Document Title
+console.log(document.URL); //displays URL of the page
+document.title = "This is new Title"; // sets a new title.
+document.location = "http://www.google.com"; //takes to this address
+document.body.style.backgroundColor = "skyblue"; //sets a  new BgColor
