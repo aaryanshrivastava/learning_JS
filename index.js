@@ -1142,7 +1142,7 @@
 // The first child of document if the HTML child element.
 // Interacting with the DOM we can elements of a webpage.
 // Document is the entry point of our DOM.
-console.log("hi");
-// console.log(document); // would display DOM and everything within it.
-// console.dir(document); // displays all the Properties.
-// console.log(document.URL); //displays
+
+console.log(document); // would display DOM and everything within it.
+console.dir(document); // displays all the Properties.
+console.log(document.URL); //displays
