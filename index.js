@@ -1144,10 +1144,10 @@
 // Interacting with the DOM we can elements of a webpage.
 // Document is the entry point of our DOM.
 
-console.log(document); // would display DOM and everything within it.
-console.dir(document); // displays all the Properties.
-console.log(document.title); //Document Title
-console.log(document.URL); //displays URL of the page
-document.title = "This is new Title"; // sets a new title.
-document.location = "http://www.google.com"; //takes to this address
-document.body.style.backgroundColor = "skyblue"; //sets a  new BgColor
+// console.log(document); // would display DOM and everything within it.
+// console.dir(document); // displays all the Properties.
+// console.log(document.title); //Document Title
+// console.log(document.URL); //displays URL of the page
+// document.title = "This is new Title"; // sets a new title.
+// document.location = "http://www.google.com"; //takes to this address
+// document.body.style.backgroundColor = "skyblue"; //sets a  new BgColor
