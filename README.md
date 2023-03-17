@@ -1,10 +1,20 @@
 # learning_JS
 
-Learnt JavaScript again from Youtube BroCode.
+Extensions USed ::
+0 Quokka.js
+1 Auto Rename tag
+2 ES7+ React Redux
+3 ESLint
+4 Image Preview
+5 issort
+6 Live Server
+7 Night Owl Theme
+8 npm Intellisense
+9 Prettier
+
+Revised, JavaScript again from Youtube BroCode.It was requiredt to prepare for interviews.
 
 Link :: https://www.youtube.com/playlist?list=PLZPZq0r_RZOMRMjHB_IEBjOW_ufr00yG1
-
-Revision was required so as to prepare for interviews.
 
 GEneral Notes ::
 
@@ -51,7 +61,6 @@ OOP is supported in Js , as class keyword being syntatic sugar for prototypal in
 A class can define a constructor which is a function called when object is first created
 Inbuilt data strs' array, set,map,weakmap and weaket
 Non blocking event loop in a script next line can't start until previous financies with an event loop we can write a asynchronous code in Js late runs in a separate thread pool while the rest of app continuous to execute
-Ab promise is a Raipur for a value that is unknown right now but that will resolve to a value in future like maybe a call to third API if something goes wrong a promise can reject to raise an error
 As our code grows in complexity it won't fit in a single file we can use ES modules to share code between files by default all the code in the file or module is private to that file if we want to use a code in some other file we can make a default expert this allows us to go in different file and use import function ever there
 Largest js package manager is NPM, when install a package from npm it downloads it's code in note modules folder in project
 Browser is based on DOM (document object model) where the UI is represented as a free of HTML elements or nodes
